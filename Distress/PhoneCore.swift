@@ -23,7 +23,7 @@ class PhoneCore: NSObject
             "Body":message
         ]
         
-        Alamofire.request(.POST, "https://api.twilio.com/2010-04-01/Accounts/AC716ff9a9c23fa222caf033ccb359ef49/Messages.json", parameters: parameters, encoding: .URL).authenticate(user: "AC716ff9a9c23fa222caf033ccb359ef49", password: "15610b105792aa2fb1cbd87b8e3b5dd1")
+        Alamofire.request(.POST, "https://api.twilio.com/2010-04-01/Accounts/AC716ff9a9c23fa222caf033ccb359ef49/Messages.json", parameters: parameters, encoding: .URL).authenticate(user: "ACdee495514628fc4e0a832160afef165e", password: "99780af30286ed222e6f9ee3bf89931a")
 
     }
     static func showAlert(title: String, message: String, presentingViewController: UIViewController, onScreenDelay: Double)
